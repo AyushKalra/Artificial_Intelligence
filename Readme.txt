@@ -9,8 +9,11 @@ https://docs.google.com/document/d/1ByoOaftIFCJpZEIhdbPw79XIZ3EVuyhcGJHYt2MIufI/
 Link to Google Doc:
 https://docs.google.com/document/d/1hUqLEqlS7-Yd18Dpup5O74FzD3j7knyz46zVTUp_eJM/edit?usp=sharing
 
-Link to Presentation:
+Link to Presentation Video:
 https://youtu.be/meKRM9oaqeo
+
+Link to Presentation Slide:
+https://docs.google.com/presentation/d/1hm5k-VsJebD1SikjMAK8HESsp1hx1zWS/edit?usp=sharing&ouid=115815554444826478980&rtpof=true&sd=true
 -----------------------------------------------------------------------------------
 Group Members
 Ayush Kalra                         kalraay@tcd.ie        20327429
