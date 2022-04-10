@@ -111,8 +111,11 @@ class board(object):
             for i in range(len(self.quizarray)):
                 for j in range(len(self.quizarray[0])):
                     if (self.quizarray[i][j] == self.solutionarray[i][j]):
+                        if (not self.binaryquizarray[i][j]):
+                            print("what is shown:",self.currentquizarray[i][j] )
+                            reward +=1
                         # print("rewarding")
-                        reward +=1
+                        
             done = False
         
        
@@ -124,9 +127,12 @@ class board(object):
 
         cls = lambda: os.system('cls')
         cls()
+        print("Sudoku Solving:")
         print(self.quizarray)
+        print("Sudoku Solution:")
         print(self.solutionarray)
         # print(self.currentquizarray)
+        print(self.binaryquizarray)
         print( "Reward:", reward)
         time.sleep(0.5)
         return s_, reward, done

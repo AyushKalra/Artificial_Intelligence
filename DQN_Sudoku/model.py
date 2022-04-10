@@ -20,7 +20,8 @@ def run_maze():
             action = neuralbrain.choose_action(currentstate)
             futurestate_, reward, done = env.step(action)
             neuralbrain.store_transition(currentstate, action, reward, futurestate_)
-            neuralbrain.learn()
+            if (step%20  == 0):
+                neuralbrain.learn()
             currentstate = futurestate_
             if done:
                 break
@@ -31,7 +32,7 @@ def run_maze():
 if __name__ == "__main__":
     env = board()
     neuralbrain = DQNAgent(env.n_actions, env.n_features,
-                      learning_rate=0.01,
+                      learning_rate=0.1,
                       reward_decay=0.9,
                       e_greedy=0.9,
                       replace_target_iter=50,
